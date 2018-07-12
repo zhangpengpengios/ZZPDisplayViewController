@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178EA34720F6FA110004C3DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA34620F6FA110004C3DA /* AppDelegate.m */; };
+		178EA34A20F6FA110004C3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA34920F6FA110004C3DA /* ViewController.m */; };
+		178EA34D20F6FA110004C3DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178EA34B20F6FA110004C3DA /* Main.storyboard */; };
+		178EA35020F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 178EA34E20F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodeld */; };
+		178EA35220F6FA120004C3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178EA35120F6FA120004C3DA /* Assets.xcassets */; };
+		178EA35520F6FA120004C3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178EA35320F6FA120004C3DA /* LaunchScreen.storyboard */; };
+		178EA35820F6FA120004C3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA35720F6FA120004C3DA /* main.m */; };
+		178EA36220F6FA130004C3DA /* ZZPDisplayViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA36120F6FA130004C3DA /* ZZPDisplayViewControllerTests.m */; };
+		178EA36D20F6FA130004C3DA /* ZZPDisplayViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA36C20F6FA130004C3DA /* ZZPDisplayViewControllerUITests.m */; };
+		178EA38420F6FA7B0004C3DA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA37B20F6FA7A0004C3DA /* UIView+Frame.m */; };
+		178EA38520F6FA7B0004C3DA /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA37C20F6FA7A0004C3DA /* YZDisplayTitleLabel.m */; };
+		178EA38620F6FA7B0004C3DA /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA37E20F6FA7B0004C3DA /* YZDisplayViewController.m */; };
+		178EA38720F6FA7B0004C3DA /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA38320F6FA7B0004C3DA /* YZFlowLayout.m */; };
+		178EA38A20F6FBB60004C3DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA38920F6FBB60004C3DA /* MainViewController.m */; };
+		178EA38F20F6FC560004C3DA /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178EA38E20F6FC560004C3DA /* ChildViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178EA35E20F6FA130004C3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178EA33A20F6FA110004C3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178EA34120F6FA110004C3DA;
+			remoteInfo = ZZPDisplayViewController;
+		};
+		178EA36920F6FA130004C3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178EA33A20F6FA110004C3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178EA34120F6FA110004C3DA;
+			remoteInfo = ZZPDisplayViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178EA34220F6FA110004C3DA /* ZZPDisplayViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZPDisplayViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178EA34520F6FA110004C3DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		178EA34620F6FA110004C3DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		178EA34820F6FA110004C3DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		178EA34920F6FA110004C3DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		178EA34C20F6FA110004C3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		178EA34F20F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZZPDisplayViewController.xcdatamodel; sourceTree = "<group>"; };
+		178EA35120F6FA120004C3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178EA35420F6FA120004C3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178EA35620F6FA120004C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178EA35720F6FA120004C3DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		178EA35D20F6FA130004C3DA /* ZZPDisplayViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZPDisplayViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178EA36120F6FA130004C3DA /* ZZPDisplayViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPDisplayViewControllerTests.m; sourceTree = "<group>"; };
+		178EA36320F6FA130004C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178EA36820F6FA130004C3DA /* ZZPDisplayViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZPDisplayViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178EA36C20F6FA130004C3DA /* ZZPDisplayViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPDisplayViewControllerUITests.m; sourceTree = "<group>"; };
+		178EA36E20F6FA130004C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178EA37B20F6FA7A0004C3DA /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		178EA37C20F6FA7A0004C3DA /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		178EA37D20F6FA7B0004C3DA /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		178EA37E20F6FA7B0004C3DA /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		178EA37F20F6FA7B0004C3DA /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		178EA38020F6FA7B0004C3DA /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		178EA38120F6FA7B0004C3DA /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		178EA38220F6FA7B0004C3DA /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
+		178EA38320F6FA7B0004C3DA /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		178EA38820F6FBB60004C3DA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		178EA38920F6FBB60004C3DA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		178EA38D20F6FC560004C3DA /* ChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		178EA38E20F6FC560004C3DA /* ChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178EA33F20F6FA110004C3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EA35A20F6FA130004C3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EA36520F6FA130004C3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178EA33920F6FA110004C3DA = {
+			isa = PBXGroup;
+			children = (
+				178EA34420F6FA110004C3DA /* ZZPDisplayViewController */,
+				178EA36020F6FA130004C3DA /* ZZPDisplayViewControllerTests */,
+				178EA36B20F6FA130004C3DA /* ZZPDisplayViewControllerUITests */,
+				178EA34320F6FA110004C3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178EA34320F6FA110004C3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178EA34220F6FA110004C3DA /* ZZPDisplayViewController.app */,
+				178EA35D20F6FA130004C3DA /* ZZPDisplayViewControllerTests.xctest */,
+				178EA36820F6FA130004C3DA /* ZZPDisplayViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178EA34420F6FA110004C3DA /* ZZPDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				178EA38C20F6FBF30004C3DA /* Child */,
+				178EA38B20F6FBD30004C3DA /* Main */,
+				178EA37A20F6FA660004C3DA /* Tools */,
+				178EA34520F6FA110004C3DA /* AppDelegate.h */,
+				178EA34620F6FA110004C3DA /* AppDelegate.m */,
+				178EA34820F6FA110004C3DA /* ViewController.h */,
+				178EA34920F6FA110004C3DA /* ViewController.m */,
+				178EA34B20F6FA110004C3DA /* Main.storyboard */,
+				178EA35120F6FA120004C3DA /* Assets.xcassets */,
+				178EA35320F6FA120004C3DA /* LaunchScreen.storyboard */,
+				178EA35620F6FA120004C3DA /* Info.plist */,
+				178EA35720F6FA120004C3DA /* main.m */,
+				178EA34E20F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodeld */,
+			);
+			path = ZZPDisplayViewController;
+			sourceTree = "<group>";
+		};
+		178EA36020F6FA130004C3DA /* ZZPDisplayViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				178EA36120F6FA130004C3DA /* ZZPDisplayViewControllerTests.m */,
+				178EA36320F6FA130004C3DA /* Info.plist */,
+			);
+			path = ZZPDisplayViewControllerTests;
+			sourceTree = "<group>";
+		};
+		178EA36B20F6FA130004C3DA /* ZZPDisplayViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				178EA36C20F6FA130004C3DA /* ZZPDisplayViewControllerUITests.m */,
+				178EA36E20F6FA130004C3DA /* Info.plist */,
+			);
+			path = ZZPDisplayViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		178EA37A20F6FA660004C3DA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				178EA37F20F6FA7B0004C3DA /* UIView+Frame.h */,
+				178EA37B20F6FA7A0004C3DA /* UIView+Frame.m */,
+				178EA38120F6FA7B0004C3DA /* YZDisplayTitleLabel.h */,
+				178EA37C20F6FA7A0004C3DA /* YZDisplayTitleLabel.m */,
+				178EA37D20F6FA7B0004C3DA /* YZDisplayViewController.h */,
+				178EA37E20F6FA7B0004C3DA /* YZDisplayViewController.m */,
+				178EA38020F6FA7B0004C3DA /* YZDisplayViewHeader.h */,
+				178EA38220F6FA7B0004C3DA /* YZFlowLayout.h */,
+				178EA38320F6FA7B0004C3DA /* YZFlowLayout.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		178EA38B20F6FBD30004C3DA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				178EA38820F6FBB60004C3DA /* MainViewController.h */,
+				178EA38920F6FBB60004C3DA /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		178EA38C20F6FBF30004C3DA /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				178EA38D20F6FC560004C3DA /* ChildViewController.h */,
+				178EA38E20F6FC560004C3DA /* ChildViewController.m */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178EA34120F6FA110004C3DA /* ZZPDisplayViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178EA37120F6FA130004C3DA /* Build configuration list for PBXNativeTarget "ZZPDisplayViewController" */;
+			buildPhases = (
+				178EA33E20F6FA110004C3DA /* Sources */,
+				178EA33F20F6FA110004C3DA /* Frameworks */,
+				178EA34020F6FA110004C3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZPDisplayViewController;
+			productName = ZZPDisplayViewController;
+			productReference = 178EA34220F6FA110004C3DA /* ZZPDisplayViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178EA35C20F6FA130004C3DA /* ZZPDisplayViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178EA37420F6FA130004C3DA /* Build configuration list for PBXNativeTarget "ZZPDisplayViewControllerTests" */;
+			buildPhases = (
+				178EA35920F6FA130004C3DA /* Sources */,
+				178EA35A20F6FA130004C3DA /* Frameworks */,
+				178EA35B20F6FA130004C3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178EA35F20F6FA130004C3DA /* PBXTargetDependency */,
+			);
+			name = ZZPDisplayViewControllerTests;
+			productName = ZZPDisplayViewControllerTests;
+			productReference = 178EA35D20F6FA130004C3DA /* ZZPDisplayViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		178EA36720F6FA130004C3DA /* ZZPDisplayViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178EA37720F6FA130004C3DA /* Build configuration list for PBXNativeTarget "ZZPDisplayViewControllerUITests" */;
+			buildPhases = (
+				178EA36420F6FA130004C3DA /* Sources */,
+				178EA36520F6FA130004C3DA /* Frameworks */,
+				178EA36620F6FA130004C3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178EA36A20F6FA130004C3DA /* PBXTargetDependency */,
+			);
+			name = ZZPDisplayViewControllerUITests;
+			productName = ZZPDisplayViewControllerUITests;
+			productReference = 178EA36820F6FA130004C3DA /* ZZPDisplayViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178EA33A20F6FA110004C3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ZZP;
+				TargetAttributes = {
+					178EA34120F6FA110004C3DA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					178EA35C20F6FA130004C3DA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 178EA34120F6FA110004C3DA;
+					};
+					178EA36720F6FA130004C3DA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 178EA34120F6FA110004C3DA;
+					};
+				};
+			};
+			buildConfigurationList = 178EA33D20F6FA110004C3DA /* Build configuration list for PBXProject "ZZPDisplayViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178EA33920F6FA110004C3DA;
+			productRefGroup = 178EA34320F6FA110004C3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178EA34120F6FA110004C3DA /* ZZPDisplayViewController */,
+				178EA35C20F6FA130004C3DA /* ZZPDisplayViewControllerTests */,
+				178EA36720F6FA130004C3DA /* ZZPDisplayViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178EA34020F6FA110004C3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EA35520F6FA120004C3DA /* LaunchScreen.storyboard in Resources */,
+				178EA35220F6FA120004C3DA /* Assets.xcassets in Resources */,
+				178EA34D20F6FA110004C3DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EA35B20F6FA130004C3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EA36620F6FA130004C3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178EA33E20F6FA110004C3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EA34A20F6FA110004C3DA /* ViewController.m in Sources */,
+				178EA38520F6FA7B0004C3DA /* YZDisplayTitleLabel.m in Sources */,
+				178EA38720F6FA7B0004C3DA /* YZFlowLayout.m in Sources */,
+				178EA34720F6FA110004C3DA /* AppDelegate.m in Sources */,
+				178EA38A20F6FBB60004C3DA /* MainViewController.m in Sources */,
+				178EA38620F6FA7B0004C3DA /* YZDisplayViewController.m in Sources */,
+				178EA35820F6FA120004C3DA /* main.m in Sources */,
+				178EA38F20F6FC560004C3DA /* ChildViewController.m in Sources */,
+				178EA38420F6FA7B0004C3DA /* UIView+Frame.m in Sources */,
+				178EA35020F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EA35920F6FA130004C3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EA36220F6FA130004C3DA /* ZZPDisplayViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EA36420F6FA130004C3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EA36D20F6FA130004C3DA /* ZZPDisplayViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178EA35F20F6FA130004C3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178EA34120F6FA110004C3DA /* ZZPDisplayViewController */;
+			targetProxy = 178EA35E20F6FA130004C3DA /* PBXContainerItemProxy */;
+		};
+		178EA36A20F6FA130004C3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178EA34120F6FA110004C3DA /* ZZPDisplayViewController */;
+			targetProxy = 178EA36920F6FA130004C3DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		178EA34B20F6FA110004C3DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178EA34C20F6FA110004C3DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		178EA35320F6FA120004C3DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178EA35420F6FA120004C3DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178EA36F20F6FA130004C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		178EA37020F6FA130004C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178EA37220F6FA130004C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2X24BXH7Z;
+				INFOPLIST_FILE = ZZPDisplayViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPDisplayViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178EA37320F6FA130004C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2X24BXH7Z;
+				INFOPLIST_FILE = ZZPDisplayViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPDisplayViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		178EA37520F6FA130004C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2X24BXH7Z;
+				INFOPLIST_FILE = ZZPDisplayViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPDisplayViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZPDisplayViewController.app/ZZPDisplayViewController";
+			};
+			name = Debug;
+		};
+		178EA37620F6FA130004C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2X24BXH7Z;
+				INFOPLIST_FILE = ZZPDisplayViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPDisplayViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZPDisplayViewController.app/ZZPDisplayViewController";
+			};
+			name = Release;
+		};
+		178EA37820F6FA130004C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2X24BXH7Z;
+				INFOPLIST_FILE = ZZPDisplayViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPDisplayViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZPDisplayViewController;
+			};
+			name = Debug;
+		};
+		178EA37920F6FA130004C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2X24BXH7Z;
+				INFOPLIST_FILE = ZZPDisplayViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPDisplayViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZPDisplayViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178EA33D20F6FA110004C3DA /* Build configuration list for PBXProject "ZZPDisplayViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EA36F20F6FA130004C3DA /* Debug */,
+				178EA37020F6FA130004C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178EA37120F6FA130004C3DA /* Build configuration list for PBXNativeTarget "ZZPDisplayViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EA37220F6FA130004C3DA /* Debug */,
+				178EA37320F6FA130004C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178EA37420F6FA130004C3DA /* Build configuration list for PBXNativeTarget "ZZPDisplayViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EA37520F6FA130004C3DA /* Debug */,
+				178EA37620F6FA130004C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178EA37720F6FA130004C3DA /* Build configuration list for PBXNativeTarget "ZZPDisplayViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EA37820F6FA130004C3DA /* Debug */,
+				178EA37920F6FA130004C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		178EA34E20F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				178EA34F20F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodel */,
+			);
+			currentVersion = 178EA34F20F6FA110004C3DA /* ZZPDisplayViewController.xcdatamodel */;
+			path = ZZPDisplayViewController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 178EA33A20F6FA110004C3DA /* Project object */;
+}
